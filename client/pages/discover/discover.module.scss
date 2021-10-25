@@ -1,0 +1,14 @@
+.palPost {
+  #palActions {
+    opacity: 0;
+  }
+  &:hover {
+    #palInfo {
+      filter: blur(2px);
+    }
+    #palActions {
+      opacity: 1;
+    }
+  }
+  
+}
